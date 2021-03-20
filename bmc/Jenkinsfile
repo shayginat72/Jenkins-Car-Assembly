@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+              sh 'cd Jenkins-Car-Assembly/bmc && mvn test'
+            }
+        }
+        stage('Test'){
+            steps{
+          
+            }
+        }
+        stage('Publish'){
+            steps {
+               
+            }
+        }
+    }
+}
