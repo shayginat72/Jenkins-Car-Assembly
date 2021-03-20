@@ -9,12 +9,12 @@ pipeline {
         }
         stage('Test'){
             steps{
-          
+          		echo 'hello'
             }
         }
         stage('Publish'){
             steps {
-               
+               echo 'great success'
             }
         }
     }
