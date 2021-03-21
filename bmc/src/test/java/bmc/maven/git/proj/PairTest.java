@@ -1,12 +1,11 @@
 package bmc.maven.git.proj;
 
+import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.Comparator;
 
 import org.junit.jupiter.api.Test;
-
-
 
 class PairTest {
 	@Test
