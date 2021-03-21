@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test'){
             steps{
-            	mvn test
+            	 sh 'mvn test'
           		echo 'hello from myapp automated!!'
             }
         }
