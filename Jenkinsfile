@@ -10,6 +10,7 @@ pipeline {
                 sh 'echo "chassis" >> buildJenkins/car.txt'
                 sh 'echo "engine" >> buildJenkins/car.txt'
                 sh 'echo "body" >> buildJenkins/car.txt'
+                sh 'echo "please rebuild meeeeeee'
             }
         }
         stage('Test'){
